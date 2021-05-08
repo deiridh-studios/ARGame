@@ -31,6 +31,12 @@ public class boss_IA : MonoBehaviour
     IEnumerator DoAttacks()
     {
         //TODO: Rotate Boss to view the player
+        //Vector3 gg = -cam.transform.forward;
+        //transform.forward = new Vector3(gg.x, transform.forward.y, gg.z);
+        Vector3 targetPosition = new Vector3(cam.transform.position.x, transform.position.y, cam.transform.position.z);
+        transform.LookAt(targetPosition);
+
+
         BossAttack();
         yield return new WaitForSeconds(3);
         StartCoroutine(DoAttacks());

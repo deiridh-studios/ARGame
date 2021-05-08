@@ -7,16 +7,24 @@ public class player_ParticleFuncionality : MonoBehaviour
     public int randomRange = 5;
     public int damage = 10;
     public bool isSpecial = false;
+    public bool isPlayerParticle = true;
 
     private void OnParticleCollision(GameObject other)
-    { 
+    {
         //If the Particles touch a Enemy do damage to they
-        if (other.tag == "Boss")
+        if (isPlayerParticle == true && other.tag == "Boss")
         {
             int j = Random.Range(damage - randomRange, damage + randomRange);
             Debug.Log("Collision done with " + damage);
 
             other.GetComponent<boss_IA>().LookIfBlockAttackOrHit(j, isSpecial);
+        }
+        if (isPlayerParticle == false && other.tag == "MainCamera")
+        {
+            int j = Random.Range(damage - randomRange, damage + randomRange);
+            Debug.Log("Collision done with " + damage);
+
+            //other.GetComponent<pla>().LookIfBlockAttackOrHit(j, isSpecial);
         }
 
         //DELETE THE PARTICLE WHEN COLLISION
