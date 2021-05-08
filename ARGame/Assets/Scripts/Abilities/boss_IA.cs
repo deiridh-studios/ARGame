@@ -14,6 +14,13 @@ public class boss_IA : MonoBehaviour
     Vector3 targetPoint;
     Quaternion targetRotation;
 
+    [Header("Particles")]
+    public GameObject kick1Particle;
+    public GameObject kick2Particle;
+    public GameObject kick3Particle;
+    public GameObject punchLParticle;
+    public GameObject punchRParticle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +29,29 @@ public class boss_IA : MonoBehaviour
         StartCoroutine(DoAttacks());
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SpawnParticles(int i)
     {
-
+        switch (i)
+        {
+            case (0):
+                kick1Particle.SetActive(true);
+                break;
+            case (1):
+                kick2Particle.SetActive(true);
+                break;
+            case (2):
+                kick3Particle.SetActive(true);
+                break;
+            case (3):
+                punchLParticle.SetActive(true);
+                break;
+            case (4):
+                punchRParticle.SetActive(true);
+                break;
+            default:
+                punchLParticle.SetActive(true);
+                break;
+        }
     }
 
     IEnumerator DoAttacks()
