@@ -121,34 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &130064481
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'boss1CardMaterial
-
-    14054'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 846a3ec2765643678b7067e00e63a638, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &307376322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,7 +1133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 130064481}
+  - {fileID: 1099801069}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1285,6 +1257,7 @@ GameObject:
   - component: {fileID: 1024741303}
   - component: {fileID: 1024741308}
   - component: {fileID: 1024741309}
+  - component: {fileID: 1024741310}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -1416,6 +1389,46 @@ MonoBehaviour:
   textMaxPlayerLife: {fileID: 736552959}
   textActualPlayerLife: {fileID: 1136568178}
   isDead: 0
+--- !u!114 &1024741310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024741302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e052a136224c38444b9e8e5330538fda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &1099801069
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'boss1CardMaterial
+
+    62556'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 846a3ec2765643678b7067e00e63a638, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1136568175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2596,7 +2609,7 @@ PrefabInstance:
     - target: {fileID: 1400453552617384976, guid: 18d2e96d531b19b45a2558d7d6c89d5f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1502013180831149319, guid: 18d2e96d531b19b45a2558d7d6c89d5f,
         type: 3}
@@ -3166,12 +3179,12 @@ PrefabInstance:
     - target: {fileID: 6582784421272278356, guid: 18d2e96d531b19b45a2558d7d6c89d5f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6582784421272278356, guid: 18d2e96d531b19b45a2558d7d6c89d5f,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.434
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6597204371640916892, guid: 18d2e96d531b19b45a2558d7d6c89d5f,
         type: 3}
