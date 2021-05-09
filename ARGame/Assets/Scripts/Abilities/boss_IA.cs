@@ -29,6 +29,25 @@ public class boss_IA : MonoBehaviour
         StartCoroutine(DoAttacks());
     }
 
+    private void Update()
+    {
+    }
+
+    private void OnDisable()
+    {
+        StopCoroutine(DoAttacks());
+    }
+
+    private void OnEnable()
+    {
+        Start();
+    }
+
+    public void ToggleSpawnBoss(bool _active)
+    {
+        gameObject.SetActive(_active);
+    }
+
     public void SpawnParticles(int i)
     {
         switch (i)

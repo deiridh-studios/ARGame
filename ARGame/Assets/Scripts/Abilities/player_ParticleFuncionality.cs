@@ -24,19 +24,23 @@ public class player_ParticleFuncionality : MonoBehaviour
             int j = Random.Range(damage - randomRange, damage + randomRange);
             Debug.Log("Collision done with " + damage);
 
-            //other.GetComponent<pla>().LookIfBlockAttackOrHit(j, isSpecial);
+            other.GetComponent<player_PlayerController>().GetDamage(j);
         }
 
+        
         //DELETE THE PARTICLE WHEN COLLISION
-        ParticleSystem p_system = GetComponent<ParticleSystem>();
-        ParticleSystem.Particle[] m_Particles;
-        m_Particles = new ParticleSystem.Particle[p_system.main.maxParticles];
-
-        for (int i = 0; i < p_system.main.maxParticles; i++)
+        if(gameObject.tag != other.tag)
         {
-            m_Particles[i].remainingLifetime = -1;
-            p_system.SetParticles(m_Particles);
+            ParticleSystem p_system = GetComponent<ParticleSystem>();
+            ParticleSystem.Particle[] m_Particles;
+            m_Particles = new ParticleSystem.Particle[p_system.main.maxParticles];
+
+            for (int i = 0; i < p_system.main.maxParticles; i++)
+            {
+                m_Particles[i].remainingLifetime = -1;
+                p_system.SetParticles(m_Particles);
+            }
+            p_system.Stop();
         }
-        p_system.Stop();
     }
 }
