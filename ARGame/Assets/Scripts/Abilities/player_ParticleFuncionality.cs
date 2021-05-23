@@ -19,12 +19,15 @@ public class player_ParticleFuncionality : MonoBehaviour
 
             other.GetComponent<boss_IA>().LookIfBlockAttackOrHit(j, isSpecial);
         }
-        if (isPlayerParticle == false && other.tag == "MainCamera")
+        if (isPlayerParticle == false)
         {
             int j = Random.Range(damage - randomRange, damage + randomRange);
             Debug.Log("Collision done with " + damage);
 
-            other.GetComponent<player_PlayerController>().GetDamage(j);
+            if (other.GetComponent<player_PlayerController>() != null)
+            {
+                other.GetComponent<player_PlayerController>().GetDamage(j);
+            }
         }
 
         

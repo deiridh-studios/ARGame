@@ -11,6 +11,7 @@ public class boss_IA : MonoBehaviour
     public float bossTotalLife = 10000;
     public float bossActualLife = 10000;
     public bool isDead = false;
+    public bool isCanHitAnim = false;
     Vector3 targetPoint;
     Quaternion targetRotation;
 
@@ -83,9 +84,11 @@ public class boss_IA : MonoBehaviour
         Vector3 targetPosition = new Vector3(cam.transform.position.x, transform.position.y, cam.transform.position.z);
         transform.LookAt(targetPosition);
 
-
+        isCanHitAnim = false;
         BossAttack();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1.5f);
+        isCanHitAnim = true;
+        yield return new WaitForSeconds(2.5f);
         StartCoroutine(DoAttacks());
     }
 
@@ -111,14 +114,22 @@ public class boss_IA : MonoBehaviour
         {
             case (0):
                 // In this case the boss is hitted normally
-                if (isSpecial == true) animator.SetTrigger("HeavyHit");
-                else animator.SetTrigger("Hit");
+                if (isCanHitAnim == true)
+                {
+                    if (isSpecial == true) animator.SetTrigger("HeavyHit");
+                    else animator.SetTrigger("Hit");
+                }
+                isCanHitAnim = false;
                 GetDamage(dam);
                 break;
             case (1):
                 // In this case the boss is hitted normally
-                if (isSpecial == true) animator.SetTrigger("HeavyHit");
-                else animator.SetTrigger("Hit");
+                if (isCanHitAnim == true)
+                {
+                    if (isSpecial == true) animator.SetTrigger("HeavyHit");
+                    else animator.SetTrigger("Hit");
+                }
+                isCanHitAnim = false;
                 GetDamage(dam);
                 break;
             case (2):
@@ -126,17 +137,26 @@ public class boss_IA : MonoBehaviour
                 int j = Random.Range(0, 2);
                 if(j == 0) animator.SetTrigger("Stop1");
                 else animator.SetTrigger("Stop2");
+                isCanHitAnim = false;
                 break;
             case (3):
                 // In this case the boss is hitted normally
-                if (isSpecial == true) animator.SetTrigger("HeavyHit");
-                else animator.SetTrigger("Hit");
+                if(isCanHitAnim == true)
+                {
+                    if (isSpecial == true) animator.SetTrigger("HeavyHit");
+                    else animator.SetTrigger("Hit");
+                }
+                isCanHitAnim = false;
                 GetDamage(dam);
                 break;
             default:
                 //If is a irregular fail, the boss is hitted normally
-                if(isSpecial==true) animator.SetTrigger("HeavyHit");
-                else animator.SetTrigger("Hit");
+                if (isCanHitAnim == true)
+                {
+                    if (isSpecial == true) animator.SetTrigger("HeavyHit");
+                    else animator.SetTrigger("Hit");
+                }
+                isCanHitAnim = false;
                 GetDamage(dam);
                 break;
         }

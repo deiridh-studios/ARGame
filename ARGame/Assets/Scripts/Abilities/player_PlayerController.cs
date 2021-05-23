@@ -28,7 +28,7 @@ public class player_PlayerController : MonoBehaviour
     public void GetDamage(int dam)
     {
         actualPlayerLife -= dam;
-        Vibrator.Vibrate(250);
+        Handheld.Vibrate();
         if (actualPlayerLife < 0)
         {
             isDead = true;
