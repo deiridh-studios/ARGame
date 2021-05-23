@@ -11,7 +11,7 @@ public class player_PlayerController : MonoBehaviour
     public Text textMaxPlayerLife;
     public Text textActualPlayerLife;
     public bool isDead = false;
-
+    public ScenesChanger changer;
     public void RefreshUI()
     {
         textActualPlayerLife.text = actualPlayerLife.ToString();
@@ -28,9 +28,11 @@ public class player_PlayerController : MonoBehaviour
     public void GetDamage(int dam)
     {
         actualPlayerLife -= dam;
+        Vibrator.Vibrate(250);
         if (actualPlayerLife < 0)
         {
             isDead = true;
+            changer.ChangeToScene("MainMenu");
         }
         RefreshUI();
     }

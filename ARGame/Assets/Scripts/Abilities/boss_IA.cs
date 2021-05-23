@@ -21,6 +21,8 @@ public class boss_IA : MonoBehaviour
     public GameObject punchLParticle;
     public GameObject punchRParticle;
 
+    public ScenesChanger changer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -95,6 +97,7 @@ public class boss_IA : MonoBehaviour
             isDead = true;
             animator.SetTrigger("Death");
             Debug.Log("Boss Defeated");
+            changer.ChangeToScene("MainMenu");
         }
         sliderHP.value = bossActualLife / bossTotalLife;
         //Debug.Log("This is the value: " + bossActualLife / bossTotalLife);

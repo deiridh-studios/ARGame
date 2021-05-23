@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 4646dd0e4a9d8134f9e727714c5f6147
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7238470264045769597
+    second: mAIN mENU aTLAS_0
+  - first:
+      213: -7373099680266195630
+    second: mAIN mENU aTLAS_1
+  - first:
+      213: 6681565519947417041
+    second: mAIN mENU aTLAS_2
+  - first:
+      213: 1183114589577763255
+    second: mAIN mENU aTLAS_3
+  - first:
+      213: 8246216781408962702
+    second: mAIN mENU aTLAS_4
+  - first:
+      213: -4334984654234833035
+    second: mAIN mENU aTLAS_5
+  - first:
+      213: -7576742584532977037
+    second: mAIN mENU aTLAS_6
+  - first:
+      213: -7672611392151778860
+    second: mAIN mENU aTLAS_7
+  - first:
+      213: 2843478515673629940
+    second: mAIN mENU aTLAS_8
+  - first:
+      213: -4171594342775057749
+    second: mAIN mENU aTLAS_9
+  - first:
+      213: -9115444162463904920
+    second: mAIN mENU aTLAS_10
+  - first:
+      213: -2648389631066639242
+    second: mAIN mENU aTLAS_11
+  - first:
+      213: -8939411320677980623
+    second: mAIN mENU aTLAS_12
+  - first:
+      213: -7748007134299077933
+    second: mAIN mENU aTLAS_13
+  - first:
+      213: 1810294651547080421
+    second: mAIN mENU aTLAS_14
+  - first:
+      213: -4407900591990258478
+    second: mAIN mENU aTLAS_15
+  - first:
+      213: 3640692635586183941
+    second: mAIN mENU aTLAS_16
+  - first:
+      213: -7233068434459758291
+    second: mAIN mENU aTLAS_17
+  - first:
+      213: 3712075314876974553
+    second: mAIN mENU aTLAS_18
+  - first:
+      213: -8829258787817411148
+    second: mAIN mENU aTLAS_19
+  - first:
+      213: 5474477632220008530
+    second: mAIN mENU aTLAS_20
+  - first:
+      213: 3330959213361635907
+    second: mAIN mENU aTLAS_21
+  - first:
+      213: -7693365392746853354
+    second: mAIN mENU aTLAS_22
+  - first:
+      213: -2137695011664251411
+    second: mAIN mENU aTLAS_23
+  - first:
+      213: 276187524823257318
+    second: mAIN mENU aTLAS_24
+  - first:
+      213: -3247564544235132482
+    second: mAIN mENU aTLAS_25
+  - first:
+      213: -4820085010669311135
+    second: mAIN mENU aTLAS_26
+  - first:
+      213: -1743851343898327912
+    second: mAIN mENU aTLAS_27
+  - first:
+      213: 7175641051421439058
+    second: mAIN mENU aTLAS_28
+  - first:
+      213: 8700887362964236149
+    second: mAIN mENU aTLAS_29
+  - first:
+      213: -8101608488110684534
+    second: mAIN mENU aTLAS_30
+  - first:
+      213: -6892220305862805180
+    second: mAIN mENU aTLAS_31
+  - first:
+      213: 4247595752670800001
+    second: mAIN mENU aTLAS_32
+  - first:
+      213: -8620008851585109463
+    second: mAIN mENU aTLAS_33
+  - first:
+      213: -2187552088547284698
+    second: mAIN mENU aTLAS_34
+  - first:
+      213: -4694095532366558999
+    second: mAIN mENU aTLAS_35
+  - first:
+      213: -9211615485789069764
+    second: mAIN mENU aTLAS_36
+  - first:
+      213: 4874066660819313840
+    second: mAIN mENU aTLAS_37
+  - first:
+      213: 4849168880078864943
+    second: mAIN mENU aTLAS_38
+  - first:
+      213: 2757029797280744048
+    second: mAIN mENU aTLAS_39
+  - first:
+      213: -7646148386177595225
+    second: mAIN mENU aTLAS_40
+  - first:
+      213: -4661160683726090839
+    second: mAIN mENU aTLAS_41
+  - first:
+      213: -4844583180851947895
+    second: mAIN mENU aTLAS_42
+  - first:
+      213: 4788580474500281736
+    second: mAIN mENU aTLAS_43
+  - first:
+      213: -4006930245202578273
+    second: mAIN mENU aTLAS_44
+  - first:
+      213: 2979699424800426121
+    second: mAIN mENU aTLAS_45
+  - first:
+      213: 1837317458951552416
+    second: mAIN mENU aTLAS_46
+  - first:
+      213: 8885625398356393245
+    second: mAIN mENU aTLAS_47
+  - first:
+      213: -3425951562872328035
+    second: mAIN mENU aTLAS_48
+  - first:
+      213: -2003224408277214746
+    second: mAIN mENU aTLAS_49
+  - first:
+      213: 5938712245270760402
+    second: mAIN mENU aTLAS_50
+  - first:
+      213: 1934456533165868680
+    second: mAIN mENU aTLAS_51
+  - first:
+      213: -2374525677278547838
+    second: mAIN mENU aTLAS_52
+  - first:
+      213: -8850191654597294004
+    second: mAIN mENU aTLAS_53
+  - first:
+      213: -44421153220978802
+    second: mAIN mENU aTLAS_54
+  - first:
+      213: -8999492352898265373
+    second: mAIN mENU aTLAS_55
+  - first:
+      213: -930421951052483102
+    second: mAIN mENU aTLAS_56
+  - first:
+      213: 685956036211079054
+    second: mAIN mENU aTLAS_57
+  - first:
+      213: -3327029108399741870
+    second: mAIN mENU aTLAS_58
+  - first:
+      213: -4928370387786024397
+    second: mAIN mENU aTLAS_59
+  - first:
+      213: 2347891068901694277
+    second: mAIN mENU aTLAS_60
+  - first:
+      213: -6973539684941972494
+    second: mAIN mENU aTLAS_61
+  - first:
+      213: -4359039909020415921
+    second: mAIN mENU aTLAS_62
+  - first:
+      213: -801662439412082710
+    second: mAIN mENU aTLAS_63
+  - first:
+      213: -647881788710851797
+    second: mAIN mENU aTLAS_64
+  - first:
+      213: -7771791682303668913
+    second: mAIN mENU aTLAS_65
+  - first:
+      213: 1276347550873058129
+    second: mAIN mENU aTLAS_66
+  - first:
+      213: -3065901239123707969
+    second: mAIN mENU aTLAS_67
+  - first:
+      213: 3280752908953855829
+    second: mAIN mENU aTLAS_68
+  - first:
+      213: -5950493725181206261
+    second: mAIN mENU aTLAS_69
+  - first:
+      213: -4869310881617265302
+    second: mAIN mENU aTLAS_70
+  - first:
+      213: -4444305048397703096
+    second: mAIN mENU aTLAS_71
+  - first:
+      213: -3909402241684595466
+    second: mAIN mENU aTLAS_72
+  - first:
+      213: 954620720491538466
+    second: mAIN mENU aTLAS_73
+  - first:
+      213: -5246903383390754366
+    second: mAIN mENU aTLAS_74
+  - first:
+      213: -3247069678550402199
+    second: mAIN mENU aTLAS_75
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mAIN mENU aTLAS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 1422
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ce25a55a9cb8b90800000000000000
+      internalID: -7238470264045769597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mAIN mENU aTLAS_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 13
+        width: 609
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25def28b7ec7da990800000000000000
+      internalID: -7373099680266195630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mAIN mENU aTLAS_2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 66
+        width: 839
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5c6ff9070b9bc50800000000000000
+      internalID: 6681565519947417041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 325c2b777bdc7544da82f7659d5ae24e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
