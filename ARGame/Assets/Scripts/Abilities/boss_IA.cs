@@ -22,6 +22,12 @@ public class boss_IA : MonoBehaviour
     public GameObject punchLParticle;
     public GameObject punchRParticle;
 
+    [Header("Trail")]
+    public GameObject trailL1;
+    public GameObject trailL2;
+    public GameObject trailR1;
+    public GameObject trailR2;
+
     public ScenesChanger changer;
 
     // Start is called before the first frame update
@@ -69,6 +75,22 @@ public class boss_IA : MonoBehaviour
                 break;
             case (4):
                 punchRParticle.SetActive(true);
+                break;
+            case (5):
+                trailL1.SetActive(true);
+                trailL2.SetActive(true);
+                break;
+            case (6):
+                trailL1.SetActive(false);
+                trailL2.SetActive(false);
+                break;
+            case (7):
+                trailR1.SetActive(true);
+                trailR2.SetActive(true);
+                break;
+            case (8):
+                trailR1.SetActive(false);
+                trailR2.SetActive(false);
                 break;
             default:
                 punchLParticle.SetActive(true);
