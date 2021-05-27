@@ -5,7 +5,9 @@ Made by:
 - Josep Sànchez - https://github.com/daskza19
 - Roger Pérez - https://github.com/Rugiacreed
 - Carlos Redolar - https://github.com/carlosredolar
-Github Repository: https://github.com/deiridh-studios/ARGame
+
+
+- Github Repository: https://github.com/deiridh-studios/ARGame
 
 Instructions and controls:
 Focus the camera on the marker and an enemy will appear.
