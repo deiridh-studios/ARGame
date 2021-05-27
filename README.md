@@ -1,9 +1,9 @@
-BATROK'S LEGACY
+# BATROK'S LEGACY
 
 This is a prototype of an Augmented Reality game made for the Augmented Reality subject at the UPC (CITM) in Terrassa.
 Made by:
-- Josep Sànchez - https://github.com/daskza19
-- Roger Pérez - https://github.com/Rugiacreed
+- Josep SÃ nchez - https://github.com/daskza19
+- Roger PÃ©rez - https://github.com/Rugiacreed
 - Carlos Redolar - https://github.com/carlosredolar
 Github Repository: https://github.com/deiridh-studios/ARGame
 
